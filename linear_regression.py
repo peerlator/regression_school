@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-def make_plot(m ,n, x, y):
+def make_plot(m, n, x, y):
     """this function makes a plot of the function predicted and the points given
     
     Arguments:
@@ -38,12 +38,12 @@ def linear_regression(x,y):
             "xx": (x-x_mid)**2, "yy": (y-y_mid)**2}
     df = pd.DataFrame(data=data)
     sums = {name: np.sum(x) for name, x in data.items()}
-    df.append(sums)
+    df.append(sums, ignore_index=True)
     print(df.head())
     m = sums["xy"] / sums["xx"]
     n = y_mid - x_mid * m
     make_plot(m, n, x, y)
     difference = np.sum([np.abs(y[i]-(m*x[i]+n)) for i in range(len(x))])
-    print("Total difference")
+    print("Total difference = " + str(difference))
+    print("Avg Distance = " + str(difference / len(x)))
     return m, n
-
