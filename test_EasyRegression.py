@@ -13,7 +13,7 @@ def test():
     x, y = generate_data(**data_gen_dict)
     # test Easyregression
     easy_reg = EasyRegression(np.zeros(len(data_gen_dict["list_of_n_powers"])+4))
-    easy_reg.train(x, y, 1e-21, 101000)
+    easy_reg.train(x, y, 1e-21, 1001000, learning_rate_min=1e-50)
 
 if __name__=="__main__":
     test()
