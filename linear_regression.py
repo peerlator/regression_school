@@ -43,7 +43,7 @@ def linear_regression(x,y):
     m = sums["xy"] / sums["xx"]
     n = y_mid - x_mid * m
     make_plot(m, n, x, y)
-    difference = np.sum([np.abs(y[i]-(m*x[i]+n)) for i in range(len(x))])
+    difference = np.sum(np.abs(y - (x * m + n)))
     print("Total difference = " + str(difference))
     print("Avg Distance = " + str(difference / len(x)))
     return m, n
