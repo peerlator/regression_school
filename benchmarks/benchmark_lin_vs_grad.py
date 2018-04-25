@@ -6,10 +6,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def generate_data(m, n, n_samples, x_max, x_min, offset_max, offset_min):
-  x = np.random.uniform(x_min, x_max, n_samples)
-  y = m * x + n
-  y += np.random.uniform(x_min, x_max, n_samples)
-  return x, y
+    x = np.random.uniform(x_min, x_max, n_samples)
+    y = m * x + n
+    y += np.random.uniform(x_min, x_max, n_samples)
+    return x, y
 
 def benchmark():
     # generate data 
