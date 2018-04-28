@@ -9,3 +9,6 @@ Ich habe EasyRegression hinzugefügt. Es arbeitet mit Gradient descent
 
 ## 21 April 2018 (18: 05)
 Ich habe Plug and Play test files hinzugefügt und LearningRate Decay bei EasyRegression hinzugefügt. 
+
+## 28 April 2018 (15: 55)
+Added Demo and edited EasyRegresssion Docs
