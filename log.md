@@ -12,3 +12,6 @@ Ich habe Plug and Play test files hinzugefügt und LearningRate Decay bei EasyRe
 
 ## 28 April 2018 (15: 55)
 Added Demo and edited EasyRegresssion Docs
+
+## 1 Mai 2018 (15: 21)
+Added EasyRegressio to PyPi and edited .gitignore

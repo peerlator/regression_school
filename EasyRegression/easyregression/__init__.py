@@ -1,0 +1,1 @@
+from EasyRegression import EasyRegression

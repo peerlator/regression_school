@@ -1,0 +1,8 @@
+setup.py
+EasyRegression/EasyRegression.py
+EasyRegression/__init__.py
+EasyRegression.egg-info/PKG-INFO
+EasyRegression.egg-info/SOURCES.txt
+EasyRegression.egg-info/dependency_links.txt
+EasyRegression.egg-info/not-zip-safe
+EasyRegression.egg-info/top_level.txt
