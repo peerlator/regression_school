@@ -21,4 +21,4 @@ easy_reg = EasyRegression(np.zeros(5))
 easy_reg.train(x,y,1e-33, 20000)
 ```
 A video to describe it better: \
-[![Demo of EasyRegression](https://img.youtube.com/vi/https://youtu.be/ewt2G2DBh30/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/ewt2G2DBh30)
+[![Demo of EasyRegression](https://img.youtube.com/vi/ewt2G2DBh30/0.jpg)](https://www.youtube.com/watch?v=ewt2G2DBh30)
